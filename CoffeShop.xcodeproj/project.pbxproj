@@ -47,7 +47,6 @@
 		D39231CA2C7B21780016B23C /* TrackOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrderView.swift; sourceTree = "<group>"; };
 		D39231D52C7B35AD0016B23C /* TrackOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrderViewModel.swift; sourceTree = "<group>"; };
 		D39231D72C7B3C330016B23C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		D39231D92C7B3D3D0016B23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D3DF12E82C60CD4000670090 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Thin.ttf"; sourceTree = "<group>"; };
 		D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 		35CD73442C60C6DA004CB872 /* CoffeShop */ = {
 			isa = PBXGroup;
 			children = (
-				D39231D92C7B3D3D0016B23C /* Info.plist */,
 				D3DF12E62C60CD2500670090 /* App Starter */,
 				D35CEA7A2C78BC5900CB95C5 /* Model */,
 				D35CEA702C78B13B00CB95C5 /* Modules */,
@@ -452,7 +450,7 @@
 				DEVELOPMENT_TEAM = 9DRYUUNTK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoffeShop/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ask Location to track order from you";
@@ -485,7 +483,7 @@
 				DEVELOPMENT_TEAM = 9DRYUUNTK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoffeShop/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ask Location to track order from you";
