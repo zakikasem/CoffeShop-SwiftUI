@@ -8,21 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		35CD73462C60C6DA004CB872 /* CoffeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD73452C60C6DA004CB872 /* CoffeShopApp.swift */; };
-		35CD73482C60C6DA004CB872 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD73472C60C6DA004CB872 /* ContentView.swift */; };
 		35CD734A2C60C6DC004CB872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD73492C60C6DC004CB872 /* Assets.xcassets */; };
 		35CD734D2C60C6DC004CB872 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD734C2C60C6DC004CB872 /* Preview Assets.xcassets */; };
+		D35CEA742C78B20B00CB95C5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CEA732C78B20B00CB95C5 /* HomeViewModel.swift */; };
+		D35CEA772C78B3FA00CB95C5 /* SectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CEA762C78B3FA00CB95C5 /* SectionCell.swift */; };
+		D35CEA792C78B51800CB95C5 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CEA782C78B51800CB95C5 /* RoundedCorner.swift */; };
+		D35CEA7C2C78BC6E00CB95C5 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CEA7B2C78BC6E00CB95C5 /* CategoryModel.swift */; };
+		D39231B32C7B18860016B23C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231B22C7B18860016B23C /* ProductCell.swift */; };
+		D39231B52C7B1B590016B23C /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231B42C7B1B590016B23C /* CoffeeModel.swift */; };
+		D39231B62C7B1D3B0016B23C /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F12C60D56500670090 /* Sora-Medium.ttf */; };
+		D39231B72C7B1D3B0016B23C /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EF2C60D56500670090 /* Sora-Light.ttf */; };
+		D39231B82C7B1D3B0016B23C /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F02C60D56500670090 /* Sora-Regular.ttf */; };
+		D39231B92C7B1D3B0016B23C /* Sora-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F32C60D56500670090 /* Sora-ExtraLight.ttf */; };
+		D39231BA2C7B1D3B0016B23C /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F22C60D56500670090 /* Sora-SemiBold.ttf */; };
+		D39231BB2C7B1D3B0016B23C /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */; };
+		D39231BC2C7B1D3B0016B23C /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */; };
+		D39231BD2C7B1D3B0016B23C /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EE2C60D56500670090 /* Sora-Bold.ttf */; };
+		D39231BE2C7B1D3C0016B23C /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F12C60D56500670090 /* Sora-Medium.ttf */; };
+		D39231BF2C7B1D3C0016B23C /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EF2C60D56500670090 /* Sora-Light.ttf */; };
+		D39231C02C7B1D3C0016B23C /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F02C60D56500670090 /* Sora-Regular.ttf */; };
+		D39231C12C7B1D3C0016B23C /* Sora-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F32C60D56500670090 /* Sora-ExtraLight.ttf */; };
+		D39231C22C7B1D3C0016B23C /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F22C60D56500670090 /* Sora-SemiBold.ttf */; };
+		D39231C32C7B1D3C0016B23C /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */; };
+		D39231C42C7B1D3C0016B23C /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */; };
+		D39231C52C7B1D3C0016B23C /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EE2C60D56500670090 /* Sora-Bold.ttf */; };
+		D39231C72C7B1EBE0016B23C /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231C62C7B1EBE0016B23C /* UIScreen.swift */; };
+		D3DF12E92C60CD4000670090 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF12E82C60CD4000670090 /* HomeView.swift */; };
+		D3DF12FF2C60D6EA00670090 /* CoffeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CD73452C60C6DA004CB872 /* CoffeShopApp.swift */; };
+		D3DF13002C60D6EA00670090 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF12E82C60CD4000670090 /* HomeView.swift */; };
+		D3DF13032C60D6EA00670090 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD734C2C60C6DC004CB872 /* Preview Assets.xcassets */; };
+		D3DF130C2C60D6EA00670090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD73492C60C6DC004CB872 /* Assets.xcassets */; };
+		D3DF13142C60D78100670090 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF13132C60D78100670090 /* UIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35CD73422C60C6DA004CB872 /* CoffeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CD73452C60C6DA004CB872 /* CoffeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShopApp.swift; sourceTree = "<group>"; };
-		35CD73472C60C6DA004CB872 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35CD73492C60C6DC004CB872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35CD734C2C60C6DC004CB872 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D35CEA732C78B20B00CB95C5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D35CEA762C78B3FA00CB95C5 /* SectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
+		D35CEA782C78B51800CB95C5 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		D35CEA7B2C78BC6E00CB95C5 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		D39231B22C7B18860016B23C /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		D39231B42C7B1B590016B23C /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		D39231C62C7B1EBE0016B23C /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		D3DF12E82C60CD4000670090 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Thin.ttf"; sourceTree = "<group>"; };
+		D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D3DF12EE2C60D56500670090 /* Sora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Bold.ttf"; sourceTree = "<group>"; };
+		D3DF12EF2C60D56500670090 /* Sora-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Light.ttf"; sourceTree = "<group>"; };
+		D3DF12F02C60D56500670090 /* Sora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Regular.ttf"; sourceTree = "<group>"; };
+		D3DF12F12C60D56500670090 /* Sora-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Medium.ttf"; sourceTree = "<group>"; };
+		D3DF12F22C60D56500670090 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		D3DF12F32C60D56500670090 /* Sora-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D3DF12FC2C60D6C000670090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3DF13102C60D6EA00670090 /* CoffeShop copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoffeShop copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DF13112C60D6EA00670090 /* CoffeShop copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CoffeShop copy-Info.plist"; path = "/Volumes/Mohamed ali/Development/CoffeShop-SwiftUI/CoffeShop copy-Info.plist"; sourceTree = "<absolute>"; };
+		D3DF13132C60D78100670090 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		35CD733F2C60C6DA004CB872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF13012C60D6EA00670090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +91,7 @@
 			children = (
 				35CD73442C60C6DA004CB872 /* CoffeShop */,
 				35CD73432C60C6DA004CB872 /* Products */,
+				D3DF13112C60D6EA00670090 /* CoffeShop copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				35CD73422C60C6DA004CB872 /* CoffeShop.app */,
+				D3DF13102C60D6EA00670090 /* CoffeShop copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +107,13 @@
 		35CD73442C60C6DA004CB872 /* CoffeShop */ = {
 			isa = PBXGroup;
 			children = (
-				35CD73452C60C6DA004CB872 /* CoffeShopApp.swift */,
-				35CD73472C60C6DA004CB872 /* ContentView.swift */,
+				D3DF12FC2C60D6C000670090 /* Info.plist */,
+				D3DF12E62C60CD2500670090 /* App Starter */,
+				D35CEA7A2C78BC5900CB95C5 /* Model */,
+				D35CEA702C78B13B00CB95C5 /* Modules */,
+				D3DF12EA2C60D54900670090 /* Assists */,
 				35CD73492C60C6DC004CB872 /* Assets.xcassets */,
+				D3DF13122C60D77700670090 /* utilites */,
 				35CD734B2C60C6DC004CB872 /* Preview Content */,
 			);
 			path = CoffeShop;
@@ -65,6 +125,99 @@
 				35CD734C2C60C6DC004CB872 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D35CEA702C78B13B00CB95C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF12E72C60CD2B00670090 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D35CEA712C78B16500CB95C5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF12E82C60CD4000670090 /* HomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D35CEA722C78B19500CB95C5 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				D35CEA732C78B20B00CB95C5 /* HomeViewModel.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		D35CEA752C78B33100CB95C5 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D35CEA762C78B3FA00CB95C5 /* SectionCell.swift */,
+				D39231B22C7B18860016B23C /* ProductCell.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		D35CEA7A2C78BC5900CB95C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D35CEA7B2C78BC6E00CB95C5 /* CategoryModel.swift */,
+				D39231B42C7B1B590016B23C /* CoffeeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3DF12E62C60CD2500670090 /* App Starter */ = {
+			isa = PBXGroup;
+			children = (
+				35CD73452C60C6DA004CB872 /* CoffeShopApp.swift */,
+			);
+			path = "App Starter";
+			sourceTree = "<group>";
+		};
+		D3DF12E72C60CD2B00670090 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D35CEA722C78B19500CB95C5 /* view model */,
+				D35CEA712C78B16500CB95C5 /* view */,
+				D35CEA752C78B33100CB95C5 /* components */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D3DF12EA2C60D54900670090 /* Assists */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF12EB2C60D56500670090 /* Sora */,
+			);
+			path = Assists;
+			sourceTree = "<group>";
+		};
+		D3DF12EB2C60D56500670090 /* Sora */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */,
+				D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */,
+				D3DF12EE2C60D56500670090 /* Sora-Bold.ttf */,
+				D3DF12EF2C60D56500670090 /* Sora-Light.ttf */,
+				D3DF12F02C60D56500670090 /* Sora-Regular.ttf */,
+				D3DF12F12C60D56500670090 /* Sora-Medium.ttf */,
+				D3DF12F22C60D56500670090 /* Sora-SemiBold.ttf */,
+				D3DF12F32C60D56500670090 /* Sora-ExtraLight.ttf */,
+			);
+			path = Sora;
+			sourceTree = "<group>";
+		};
+		D3DF13122C60D77700670090 /* utilites */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF13132C60D78100670090 /* UIFont.swift */,
+				D35CEA782C78B51800CB95C5 /* RoundedCorner.swift */,
+				D39231C62C7B1EBE0016B23C /* UIScreen.swift */,
+			);
+			path = utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +238,23 @@
 			name = CoffeShop;
 			productName = CoffeShop;
 			productReference = 35CD73422C60C6DA004CB872 /* CoffeShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DF12FD2C60D6EA00670090 /* CoffeShop copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DF130D2C60D6EA00670090 /* Build configuration list for PBXNativeTarget "CoffeShop copy" */;
+			buildPhases = (
+				D3DF12FE2C60D6EA00670090 /* Sources */,
+				D3DF13012C60D6EA00670090 /* Frameworks */,
+				D3DF13022C60D6EA00670090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoffeShop copy";
+			productName = CoffeShop;
+			productReference = D3DF13102C60D6EA00670090 /* CoffeShop copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +286,7 @@
 			projectRoot = "";
 			targets = (
 				35CD73412C60C6DA004CB872 /* CoffeShop */,
+				D3DF12FD2C60D6EA00670090 /* CoffeShop copy */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +296,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39231BF2C7B1D3C0016B23C /* Sora-Light.ttf in Resources */,
+				D39231C12C7B1D3C0016B23C /* Sora-ExtraLight.ttf in Resources */,
+				D39231BE2C7B1D3C0016B23C /* Sora-Medium.ttf in Resources */,
 				35CD734D2C60C6DC004CB872 /* Preview Assets.xcassets in Resources */,
 				35CD734A2C60C6DC004CB872 /* Assets.xcassets in Resources */,
+				D39231C42C7B1D3C0016B23C /* Sora-ExtraBold.ttf in Resources */,
+				D39231C22C7B1D3C0016B23C /* Sora-SemiBold.ttf in Resources */,
+				D39231C32C7B1D3C0016B23C /* Sora-Thin.ttf in Resources */,
+				D39231C52C7B1D3C0016B23C /* Sora-Bold.ttf in Resources */,
+				D39231C02C7B1D3C0016B23C /* Sora-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF13022C60D6EA00670090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39231B72C7B1D3B0016B23C /* Sora-Light.ttf in Resources */,
+				D39231B92C7B1D3B0016B23C /* Sora-ExtraLight.ttf in Resources */,
+				D39231B62C7B1D3B0016B23C /* Sora-Medium.ttf in Resources */,
+				D3DF13032C60D6EA00670090 /* Preview Assets.xcassets in Resources */,
+				D3DF130C2C60D6EA00670090 /* Assets.xcassets in Resources */,
+				D39231BC2C7B1D3B0016B23C /* Sora-ExtraBold.ttf in Resources */,
+				D39231BA2C7B1D3B0016B23C /* Sora-SemiBold.ttf in Resources */,
+				D39231BB2C7B1D3B0016B23C /* Sora-Thin.ttf in Resources */,
+				D39231BD2C7B1D3B0016B23C /* Sora-Bold.ttf in Resources */,
+				D39231B82C7B1D3B0016B23C /* Sora-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +333,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CD73482C60C6DA004CB872 /* ContentView.swift in Sources */,
+				D35CEA792C78B51800CB95C5 /* RoundedCorner.swift in Sources */,
 				35CD73462C60C6DA004CB872 /* CoffeShopApp.swift in Sources */,
+				D3DF12E92C60CD4000670090 /* HomeView.swift in Sources */,
+				D3DF13142C60D78100670090 /* UIFont.swift in Sources */,
+				D35CEA7C2C78BC6E00CB95C5 /* CategoryModel.swift in Sources */,
+				D39231B52C7B1B590016B23C /* CoffeeModel.swift in Sources */,
+				D39231B32C7B18860016B23C /* ProductCell.swift in Sources */,
+				D35CEA772C78B3FA00CB95C5 /* SectionCell.swift in Sources */,
+				D35CEA742C78B20B00CB95C5 /* HomeViewModel.swift in Sources */,
+				D39231C72C7B1EBE0016B23C /* UIScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DF12FE2C60D6EA00670090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF12FF2C60D6EA00670090 /* CoffeShopApp.swift in Sources */,
+				D3DF13002C60D6EA00670090 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +483,7 @@
 				DEVELOPMENT_TEAM = M5KA5S692W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +513,67 @@
 				DEVELOPMENT_TEAM = M5KA5S692W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.we.coffeshop.CoffeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3DF130E2C60D6EA00670090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeShop/Preview Content\"";
+				DEVELOPMENT_TEAM = M5KA5S692W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoffeShop copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.we.coffeshop.CoffeShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3DF130F2C60D6EA00670090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoffeShop/Preview Content\"";
+				DEVELOPMENT_TEAM = M5KA5S692W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CoffeShop copy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -334,6 +609,15 @@
 			buildConfigurations = (
 				35CD73512C60C6DC004CB872 /* Debug */,
 				35CD73522C60C6DC004CB872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DF130D2C60D6EA00670090 /* Build configuration list for PBXNativeTarget "CoffeShop copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DF130E2C60D6EA00670090 /* Debug */,
+				D3DF130F2C60D6EA00670090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
