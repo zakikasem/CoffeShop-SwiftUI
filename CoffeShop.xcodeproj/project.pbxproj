@@ -16,18 +16,18 @@
 		D35CEA7C2C78BC6E00CB95C5 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35CEA7B2C78BC6E00CB95C5 /* CategoryModel.swift */; };
 		D39231B32C7B18860016B23C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231B22C7B18860016B23C /* ProductCell.swift */; };
 		D39231B52C7B1B590016B23C /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231B42C7B1B590016B23C /* CoffeeModel.swift */; };
-		D39231BE2C7B1D3C0016B23C /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F12C60D56500670090 /* Sora-Medium.ttf */; };
-		D39231BF2C7B1D3C0016B23C /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EF2C60D56500670090 /* Sora-Light.ttf */; };
-		D39231C02C7B1D3C0016B23C /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F02C60D56500670090 /* Sora-Regular.ttf */; };
-		D39231C12C7B1D3C0016B23C /* Sora-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F32C60D56500670090 /* Sora-ExtraLight.ttf */; };
-		D39231C22C7B1D3C0016B23C /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F22C60D56500670090 /* Sora-SemiBold.ttf */; };
-		D39231C32C7B1D3C0016B23C /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */; };
-		D39231C42C7B1D3C0016B23C /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */; };
-		D39231C52C7B1D3C0016B23C /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EE2C60D56500670090 /* Sora-Bold.ttf */; };
 		D39231C72C7B1EBE0016B23C /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231C62C7B1EBE0016B23C /* UIScreen.swift */; };
 		D39231CB2C7B21780016B23C /* TrackOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231CA2C7B21780016B23C /* TrackOrderView.swift */; };
 		D39231D62C7B35AD0016B23C /* TrackOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231D52C7B35AD0016B23C /* TrackOrderViewModel.swift */; };
 		D39231D82C7B3C330016B23C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39231D72C7B3C330016B23C /* LocationManager.swift */; };
+		D39231E32C7B44FA0016B23C /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EE2C60D56500670090 /* Sora-Bold.ttf */; };
+		D39231E42C7B44FA0016B23C /* Sora-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */; };
+		D39231E52C7B44FA0016B23C /* Sora-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12EF2C60D56500670090 /* Sora-Light.ttf */; };
+		D39231E62C7B44FA0016B23C /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F02C60D56500670090 /* Sora-Regular.ttf */; };
+		D39231E72C7B44FA0016B23C /* Sora-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F32C60D56500670090 /* Sora-ExtraLight.ttf */; };
+		D39231E82C7B44FA0016B23C /* Sora-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */; };
+		D39231E92C7B44FA0016B23C /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F22C60D56500670090 /* Sora-SemiBold.ttf */; };
+		D39231EA2C7B44FA0016B23C /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DF12F12C60D56500670090 /* Sora-Medium.ttf */; };
 		D3DF12E92C60CD4000670090 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF12E82C60CD4000670090 /* HomeView.swift */; };
 		D3DF13142C60D78100670090 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF13132C60D78100670090 /* UIFont.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,7 @@
 		D39231CA2C7B21780016B23C /* TrackOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrderView.swift; sourceTree = "<group>"; };
 		D39231D52C7B35AD0016B23C /* TrackOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrderViewModel.swift; sourceTree = "<group>"; };
 		D39231D72C7B3C330016B23C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D39231E22C7B44EE0016B23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D3DF12E82C60CD4000670090 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D3DF12EC2C60D56500670090 /* Sora-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-Thin.ttf"; sourceTree = "<group>"; };
 		D3DF12ED2C60D56500670090 /* Sora-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		35CD73442C60C6DA004CB872 /* CoffeShop */ = {
 			isa = PBXGroup;
 			children = (
+				D39231E22C7B44EE0016B23C /* Info.plist */,
 				D3DF12E62C60CD2500670090 /* App Starter */,
 				D35CEA7A2C78BC5900CB95C5 /* Model */,
 				D35CEA702C78B13B00CB95C5 /* Modules */,
@@ -286,16 +288,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39231BF2C7B1D3C0016B23C /* Sora-Light.ttf in Resources */,
-				D39231C12C7B1D3C0016B23C /* Sora-ExtraLight.ttf in Resources */,
-				D39231BE2C7B1D3C0016B23C /* Sora-Medium.ttf in Resources */,
 				35CD734D2C60C6DC004CB872 /* Preview Assets.xcassets in Resources */,
+				D39231E92C7B44FA0016B23C /* Sora-SemiBold.ttf in Resources */,
+				D39231E32C7B44FA0016B23C /* Sora-Bold.ttf in Resources */,
+				D39231E52C7B44FA0016B23C /* Sora-Light.ttf in Resources */,
+				D39231E42C7B44FA0016B23C /* Sora-Thin.ttf in Resources */,
+				D39231E62C7B44FA0016B23C /* Sora-Regular.ttf in Resources */,
+				D39231EA2C7B44FA0016B23C /* Sora-Medium.ttf in Resources */,
+				D39231E82C7B44FA0016B23C /* Sora-ExtraBold.ttf in Resources */,
+				D39231E72C7B44FA0016B23C /* Sora-ExtraLight.ttf in Resources */,
 				35CD734A2C60C6DC004CB872 /* Assets.xcassets in Resources */,
-				D39231C42C7B1D3C0016B23C /* Sora-ExtraBold.ttf in Resources */,
-				D39231C22C7B1D3C0016B23C /* Sora-SemiBold.ttf in Resources */,
-				D39231C32C7B1D3C0016B23C /* Sora-Thin.ttf in Resources */,
-				D39231C52C7B1D3C0016B23C /* Sora-Bold.ttf in Resources */,
-				D39231C02C7B1D3C0016B23C /* Sora-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +452,7 @@
 				DEVELOPMENT_TEAM = 9DRYUUNTK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = CoffeShop/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ask Location to track order from you";
@@ -483,7 +485,7 @@
 				DEVELOPMENT_TEAM = 9DRYUUNTK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = CoffeShop/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Ask Location to track order from you";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ask Location to track order from you";
