@@ -11,7 +11,9 @@ import SwiftUI
 struct CoffeShopApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+//            HomeView()
+            
+            TrackOrderView()
         }
     }
 }
